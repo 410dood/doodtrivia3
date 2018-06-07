@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Player.css';
 //import SocketIO from "socket.io-client";
+//import SocketIO from "socket.io-client";
+
 var states = ['connect', 'category', 'answer', 'vote', 'blank'];
 
 class Player extends Component {
